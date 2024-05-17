@@ -54,12 +54,58 @@
 }
 
 .section {
-    background-color: #767676;
-    margin-left: -20px;
+    background-color: #dadada;
+    padding: 10% 0 0 15%;
+    height: 300px;
 }
 
 
 .searchg {
     width: 223px;
     height: 28.5px;
+    border: none;
+}
+
+.range {
+    color: #008FDC;
+}
+
+.footer {
+    background: #ffffff;
+    width: 82%;
+}
+
+
+input[type=text] {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('img/icon/search.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: 30px 30px;
+}
+
+select {
+    border: none;
+}
+
+
+form {
+    display: flex;
+}
+
+form >div{
+    margin-left: 20px;
+}
+
+form div > label{
+    margin-left: 20px;
+}
+
+form div > button {
+    margin-left: 40px;
 }
